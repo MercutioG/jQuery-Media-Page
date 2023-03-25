@@ -66,6 +66,38 @@ li:hover{
     border: white 3px solid;
     border-radius: 1rem;
 }
+h4{
+    width: 80%;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+.pfp-icon{
+    width: 10%;
+    height: 7rem;
+}
+#tab3 > div{
+    display: flex;
+    align-items: center;
+    margin: 2rem;
+}
+#tab3 > div > span{
+    font-size: 3rem;
+    margin-left: 2rem;
+}
+.follow-button{
+    width: 10rem;
+    height: 4rem;
+    background-color: aquamarine;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    margin-left: auto;
+    scale: 1;
+    transition: all 0.3s;
+}
+.follow-button:hover{
+    scale: 1.2;
+    transition: all 0.3s;
+}
 
 @media screen and (max-width: 1000px) {
     body{
